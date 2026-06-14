@@ -1,0 +1,2 @@
+def generate_text(data):
+    return f"<b>FIO:</b> {data.get('fio')}\n<b>Yoshi:</b> {data.get('age')}\n<b>Kurs:</b> {data.get('course')}\n<b>Tel:</b> {data.get('contact')}\n<b>Manzil:</b> {data.get('address')}\n<b>O'qish vaqti:</b> {data.get('study_time')}"
